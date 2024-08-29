@@ -15,6 +15,15 @@ const App = () => {
    <h1 className="text-932">
     Hello, World!
    </h1>
+   <h1 className="text-100">
+    Hello, World!
+   </h1>
+
+   <hr />
+   <p className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello long sentences</p>
+   <p>Hello long sentences</p>
+   <p>Another long sentences</p>
+   <p className="text-xs sm:text-base md:text-xl lg:text-3xl xl:text-5xl">Lorem ipsum dolor sit amet.</p>
    </div>
   )
 }
