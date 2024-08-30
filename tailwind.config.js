@@ -20,6 +20,11 @@ export default {
       '6': '48px',
     },
     extend: {
+      fontSize: {
+        xs: '12px',
+        sm: '15px',
+        base: '18px'
+      },
       colors: {
         100: "#49e659",
         932: "#434252"
