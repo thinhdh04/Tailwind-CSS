@@ -21,14 +21,14 @@ const App = () => {
    </h1> */}
 
       {/* CUSTOMIZATION  */}
-      <hr />
+      {/* <hr /> */}
       {/* <p className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello long sentences</p>
    <p>Hello long sentences</p>
    <p>Another long sentences</p>
    <p className="text-xs sm:text-base md:text-xl lg:text-3xl xl:text-5xl">Lorem ipsum dolor sit amet.</p> */}
 
       {/* TYPOGRAPHY */}
-      <hr />
+      {/* <hr /> */}
       {/* <h1 className="text-9xl italic underline decoration-red-500 decoration-dotted decoration-4 underline-offset-8">Title 1</h1>
     <h2 className="text-2xl overline decoration-green-500 decoration-solid decoration-2 uppercase">title 2</h2>
     <h3 className="text-xl line-through decoration-blue-500 decoration-double decoration-1 lowercase">Title 3</h3>
@@ -40,8 +40,8 @@ const App = () => {
     <p className="break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt qui ipsam. Laboriosam at quidem fugit pariatur provident veritatis sint.</p> */}
 
       {/* space-size */}
-      <hr />
-      <div>
+      {/* <hr /> */}
+      {/* <div>
         <div className="bg-red-500 text-white font-bold p-4 m-4">hello</div>
         <div>
           <div className="w-24 bg-blue-500 p-2 m-4 rounded">w-24</div>
@@ -89,6 +89,67 @@ const App = () => {
           <div className="h-40 w-14 bg-blue-500 p-2 m-4 rounded">h-40</div>
           <div className="h-32 w-14 bg-blue-500 p-2 m-4 rounded">h-32</div>
           <div className="h-24 w-14 bg-blue-500 p-2 m-4 rounded">h-24</div>
+        </div>
+      </div> */}
+
+      {/* flex  */}
+      <div className="Parent">
+        <div>Header</div>
+        <div className="flex items-center justify-evenly">
+            <div>Sidebar</div>
+            <div>
+              <div>Main Content</div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iusto.</p>
+            </div>
+            <div>Another sidebar</div>
+          </div>
+
+        <div className="flex flex-row">
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">01</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">02</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">03</div>
+        </div>
+
+        <div className="flex flex-row-reverse">
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">01</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">02</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">03</div>
+        </div>
+
+        <div className="flex flex-col mb-10">
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">01</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">02</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">03</div>
+        </div>
+
+        <div className="flex flex-col-reverse">
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">01</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">02</div>
+          <div className="bg-pink-500 h-10 w-10 p-2 m-2 rounded">03</div>
+        </div>
+
+        <div className="flex flex-nowrap mt-10">
+          <div className="basis-1/4 bg-pink-500 p-2 m-2 rounded">01</div>
+          <div className="basis-1/4 bg-pink-500 p-2 m-2 rounded">02</div>
+          <div className="basis-1/2 bg-pink-500 p-2 m-2 rounded">03</div>
+        </div>
+
+        <div className="flex flex-wrap mt-10">
+          <div className="basis-1/4 bg-pink-500 p-2 m-2 rounded">01</div>
+          <div className="basis-1/4 bg-pink-500 p-2 m-2 rounded">02</div>
+          <div className="basis-1/2 bg-pink-500 p-2 m-2 rounded">03</div>
+        </div>
+
+        <div className="flex flex-wrap-reverse mt-10">
+          <div className="basis-1/4 bg-pink-500 p-2 m-2 rounded">01</div>
+          <div className="basis-1/4 bg-pink-500 p-2 m-2 rounded">02</div>
+          <div className="basis-1/2 bg-pink-500 p-2 m-2 rounded">03</div>
+        </div>
+
+        <div className="flex items-baseline mt-10">
+          <div className="bg-pink-500 m-2 pt-2 pb-6 px-4 rounded">01</div>
+          <div className="bg-pink-500 m-2 pt-8 pb-12 px-4 rounded">02</div>
+          <div className="bg-pink-500 m-2 pt-12 pb-4 px-4 rounded">03</div>
         </div>
       </div>
     </div>
