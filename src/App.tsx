@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <div>
+    <div className="h-full text-white Parent bg-slate-900">
       {/* COLORS  */}
       {/* <h1 className="text-3xl font-bold underline">
     Hello, World!
@@ -155,7 +155,7 @@ const App = () => {
 
       {/* grid */}
       <hr />
-      <div className="h-full text-white Parent bg-slate-900">
+      {/* <div className="h-full text-white Parent bg-slate-900">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
             <div className="bg-sky-500 p-6 rounded-lg">1</div>
@@ -205,6 +205,42 @@ const App = () => {
             <div className="p-6 rounded-lg bg-sky-500">05</div>
           </div>
         </div>
+      </div> */}
+
+      {/* layout  */}
+      <hr />
+      <div className="container px-2">
+        <img className="w-64 float-left" src="https://images.unsplash.com/photo-1725308468426-9b5e227dc15c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className="w-32 float-right" src="https://images.unsplash.com/photo-1725308468426-9b5e227dc15c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1>Hello</h1>
+        <p className="clear-both">Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, fugiat!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam velit facilis quis? Obcaecati, modi fuga.</p>
+
+        <div className="relative p-8 bg-red-500 rounded-lg w-32 h-32 mb-4">
+          <div className="absolute top-0 -left-2 w-24 h-24 bg-green-500 rounded-lg"></div>
+        </div>
+
+        <div className="relative p-8 bg-red-500 rounded-lg w-32 h-32 mb-4">
+          <div className="absolute inset-2 w-24 h-24 bg-green-500 rounded-lg"></div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="grid grid-cols-3 gap-4 mb-4">
+          <div className="bg-blue-500">01</div>
+          <div className="invisible bg-blue-500">02</div>
+          <div className="bg-blue-500">03</div>
+        </div>
+        <img className="w-64 h-64 object-center mb-4" src="https://images.unsplash.com/photo-1725308468426-9b5e227dc15c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+      </div>
+
+      <div className="container flex">
+        <div className="bg-red-500 z-40 p-3 rounded-full border border-white">05</div>
+        <div className="bg-red-500 z-30 p-3 rounded-full border border-white">04</div>
+        <div className="bg-red-500 z-20 p-3 rounded-full border border-white">03</div>
+        <div className="bg-red-500 z-10 p-3 rounded-full border border-white">02</div>
+        <div className="bg-red-500 z-0 p-3 rounded-full border border-white">01</div>
       </div>
     </div>
   );
