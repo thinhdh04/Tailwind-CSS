@@ -93,7 +93,7 @@ const App = () => {
       </div> */}
 
       {/* flex  */}
-      <div className="Parent">
+      {/* <div className="Parent">
         <div>Header</div>
         <div className="flex items-center justify-evenly">
             <div>Sidebar</div>
@@ -151,6 +151,60 @@ const App = () => {
           <div className="bg-pink-500 m-2 pt-8 pb-12 px-4 rounded">02</div>
           <div className="bg-pink-500 m-2 pt-12 pb-4 px-4 rounded">03</div>
         </div>
+      </div> */}
+
+      {/* grid */}
+      <hr />
+      <div className="h-full text-white Parent bg-slate-900">
+        <div className="container mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+            <div className="bg-sky-500 p-6 rounded-lg">1</div>
+            <div className="bg-sky-500 p-6 rounded-lg">2</div>
+            <div className="bg-sky-500 p-6 rounded-lg">3</div>
+            <div className="bg-red-500 p-6 rounded-lg col-span-3">4</div>
+            <div className="bg-sky-500 p-6 rounded-lg">5</div>
+            <div className="bg-sky-500 p-6 rounded-lg">6</div>
+          </div>
+
+          <div className="grid grid-cols-6 gap-4 mb-4 ">
+            <div className="p-6 rounded-lg col-start-2 col-span-4 bg-sky-500">01</div>
+            <div className="p-6 rounded-lg col-start-1 col-end-3 bg-sky-500">02</div>
+            <div className="p-6 rounded-lg col-end-7 col-span-2 bg-sky-500">03</div>
+            <div className="p-6 rounded-lg col-start-1 col-end-7 bg-sky-500">04</div>
+          </div> 
+
+          <div className="grid grid-flow-col auto-cols-max gap-4 mb-4">
+            <div className="p-6 rounded-lg bg-sky-500">01</div>
+            <div className="p-6 rounded-lg bg-sky-500">02</div>
+            <div className="p-6 rounded-lg bg-sky-500">03</div>
+          </div>
+
+          <div className="grid grid-rows-4 grid-flow-col gap-4 mb-4">
+            <div className="p-6 rounded-lg bg-sky-500">01</div>
+            <div className="p-6 rounded-lg bg-sky-500">02</div>
+            <div className="p-6 rounded-lg bg-sky-500">03</div>
+            <div className="p-6 rounded-lg bg-sky-500">04</div>   
+            <div className="p-6 rounded-lg bg-sky-500">05</div>
+            <div className="p-6 rounded-lg bg-sky-500">06</div>
+            <div className="p-6 rounded-lg bg-sky-500">07</div>
+            <div className="p-6 rounded-lg bg-sky-500">08</div>
+            <div className="p-6 rounded-lg bg-sky-500">09</div>
+          </div>
+
+          <div className="grid grid-rows-3 grid-flow-col gap-4 mb-4">
+            <div className="row-span-3 p-6 rounded-lg bg-sky-500">01</div>
+            <div className="col-span-2 p-6 rounded-lg bg-sky-500">02</div>
+            <div className="row-span-2 col-span-2 p-6 rounded-lg bg-sky-500">03</div>
+          </div>
+
+          <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
+            <div className="col-span-2 p-6 rounded-lg bg-sky-500">01</div>
+            <div className="p-6 rounded-lg bg-sky-500">02</div>
+            <div className="p-6 rounded-lg bg-sky-500">03</div>
+            <div className="col-span-2 p-6 rounded-lg bg-sky-500">04</div>
+            <div className="p-6 rounded-lg bg-sky-500">05</div>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -159,3 +213,5 @@ const App = () => {
 export default App;
 
 // text-3xl font-bold underline
+
+
