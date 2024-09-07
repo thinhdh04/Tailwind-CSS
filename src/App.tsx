@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="h-full text-white Parent bg-slate-900">
+    <div className="h-screen text-white Parent bg-slate-900">
       {/* COLORS  */}
       {/* <h1 className="text-3xl font-bold underline">
     Hello, World!
@@ -20,12 +20,14 @@ const App = () => {
     Hello, World!
    </h1> */}
 
+
       {/* CUSTOMIZATION  */}
       {/* <hr /> */}
       {/* <p className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello long sentences</p>
    <p>Hello long sentences</p>
    <p>Another long sentences</p>
    <p className="text-xs sm:text-base md:text-xl lg:text-3xl xl:text-5xl">Lorem ipsum dolor sit amet.</p> */}
+
 
       {/* TYPOGRAPHY */}
       {/* <hr /> */}
@@ -39,7 +41,8 @@ const App = () => {
     <p className="break-words">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis magni itaque aliquid deserunt a consequatur aliquam reiciendis. Repudiandae, temporibus dolor!</p>
     <p className="break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt qui ipsam. Laboriosam at quidem fugit pariatur provident veritatis sint.</p> */}
 
-      {/* space-size */}
+
+      {/* SPACE-SIZE */}
       {/* <hr /> */}
       {/* <div>
         <div className="bg-red-500 text-white font-bold p-4 m-4">hello</div>
@@ -92,7 +95,8 @@ const App = () => {
         </div>
       </div> */}
 
-      {/* flex  */}
+
+      {/* FLEX  */}
       {/* <div className="Parent">
         <div>Header</div>
         <div className="flex items-center justify-evenly">
@@ -153,8 +157,9 @@ const App = () => {
         </div>
       </div> */}
 
-      {/* grid */}
-      <hr />
+
+      {/* GRID */}
+      {/* <hr /> */}
       {/* <div className="h-full text-white Parent bg-slate-900">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
@@ -207,9 +212,10 @@ const App = () => {
         </div>
       </div> */}
 
-      {/* layout  */}
-      <hr />
-      <div className="container px-2">
+
+      {/*   LAYOUT  */}
+      {/* <hr /> */}
+      {/* <div className="container px-2">
         <img className="w-64 float-left" src="https://images.unsplash.com/photo-1725308468426-9b5e227dc15c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <img className="w-32 float-right" src="https://images.unsplash.com/photo-1725308468426-9b5e227dc15c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <h1>Hello</h1>
@@ -241,7 +247,24 @@ const App = () => {
         <div className="bg-red-500 z-20 p-3 rounded-full border border-white">03</div>
         <div className="bg-red-500 z-10 p-3 rounded-full border border-white">02</div>
         <div className="bg-red-500 z-0 p-3 rounded-full border border-white">01</div>
+      </div> */}
+
+
+      {/* BORDER  */}
+      <hr />
+      <header className="w-full border-2 py-4">Header</header> 
+      <div className="divide-y divide-red-700 ...">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
       </div>
+      <input type="text" className="border-2 border-rose-500 outline-none border-dashed"/>
+      <div className="grid grid-cols-3 divide-x divide-red-500 divide-dashed mb-4">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
+      <button className="outline-offset-8 outline-3 outline-cyan-500 outline-dashed rounded-sm">Button C</button>
     </div>
   );
 };
