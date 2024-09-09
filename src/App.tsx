@@ -273,25 +273,25 @@ const App = () => {
         <img className="w-80 mb-4 blur-sm hover:blur-none" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <h1 className="text-2xl">Hello</h1>
         <p className="mb-4">This is my div</p>
-        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-green-500/50 text-white opacity-100">Say Hello</button>
+        <button className="hover:-translate-y-2 transition delay-300 px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-green-500/50 text-white opacity-100">Say Hello</button>
       </div>
 
       <div className="mr-10 inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
-        <img className="w-80 mb-4 brightness-200" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className="origin-center rotate-45 scale-75 w-80 mb-4 brightness-200" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <h1 className="text-2xl">Hello</h1>
         <p className="mb-4">This is my div</p>
-        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+        <button className="hover:-translate-y-2 duration-300 px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
       </div>
 
       <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
-        <img className="w-80 mb-4 contrast-50 hover:contrast-150" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className="origin-bottom -rotate-12 w-80 mb-4 contrast-50 hover:contrast-150" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <h1 className="text-2xl">Hello</h1>
         <p className="mb-4">This is my div</p>
         <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
       </div>
       
       <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
-        <img className="w-80 mb-4 grayscale hover:grayscale-0" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <img className="skew-y-6 w-80 mb-4 grayscale hover:grayscale-0" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <h1 className="text-2xl">Hello</h1>
         <p className="mb-4">This is my div</p>
         <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
