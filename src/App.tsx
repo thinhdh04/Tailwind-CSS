@@ -2,7 +2,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="h-screen text-white Parent bg-slate-900">
+    <div className="h-screen Parent p-4">
       {/* COLORS  */}
       {/* <h1 className="text-3xl font-bold underline">
     Hello, World!
@@ -251,7 +251,7 @@ const App = () => {
 
 
       {/* BORDER  */}
-      <hr />
+      {/* <hr />
       <header className="w-full border-2 py-4">Header</header> 
       <div className="divide-y divide-red-700 ...">
         <div>01</div>
@@ -264,7 +264,59 @@ const App = () => {
         <div>02</div>
         <div>03</div>
       </div>
-      <button className="outline-offset-8 outline-3 outline-cyan-500 outline-dashed rounded-sm">Button C</button>
+      <button className="outline-offset-8 outline-3 outline-cyan-500 outline-dashed rounded-sm">Button C</button> */}
+
+
+      {/* EFFECT-FILTER  */}
+      <hr />
+      <div className="mr-10 mb-10 inline-block p-4 text-black bg-white border rounded-lg shadow-lg shadow-red-500">
+        <img className="w-80 mb-4 blur-sm hover:blur-none" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-green-500/50 text-white opacity-100">Say Hello</button>
+      </div>
+
+      <div className="mr-10 inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
+        <img className="w-80 mb-4 brightness-200" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+      </div>
+
+      <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
+        <img className="w-80 mb-4 contrast-50 hover:contrast-150" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+      </div>
+      
+      <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
+        <img className="w-80 mb-4 grayscale hover:grayscale-0" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+      </div>
+
+      <div className="ml-10 mb-10  inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
+        <img className="w-80 mb-4 hue-rotate-90" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+      </div>
+
+      <div className="ml-10 inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
+        <img className="w-80 mb-4 invert" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+      </div>
+
+      <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-inner shadow-blue-500">
+        <img className="w-80 mb-4 saturate-200" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+      </div>
     </div>
   );
 };
