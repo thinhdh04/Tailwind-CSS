@@ -1,45 +1,51 @@
-import React from "react";
+"use client";
 
-const App = () => {
+import { useState } from "react";
+import { ArrowDown } from "./arrowDown";
+
+export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectValue, setSelectValue] = useState("Option 1");
+
   return (
-    <div className="h-screen Parent p-4">
+    <div className="h-screen Parent p-2">
       {/* COLORS  */}
       {/* <h1 className="text-3xl font-bold underline">
-    Hello, World!
-   </h1>
-    <h1 className="bg-green-600 text-white border-4 border-red-600">
-    Hello, World!
-   </h1>
-   <h1 className="text-yellow-600">
-    Hello, World!
-   </h1>
-   <h1 className="text-932">
-    Hello, World!
-   </h1>
-   <h1 className="text-100">
-    Hello, World!
-   </h1> */}
+            Hello, World!
+          </h1>
+            <h1 className="bg-green-600 text-white border-4 border-red-600">
+            Hello, World!
+          </h1>
+          <h1 className="text-yellow-600">
+            Hello, World!
+          </h1>
+          <h1 className="text-932">
+            Hello, World!
+          </h1>
+          <h1 className="text-100">
+            Hello, World!
+          </h1> */}
 
 
       {/* CUSTOMIZATION  */}
       {/* <hr /> */}
       {/* <p className="text-xs sm:text-base md:text-lg lg:text-3xl">Hello long sentences</p>
-   <p>Hello long sentences</p>
-   <p>Another long sentences</p>
-   <p className="text-xs sm:text-base md:text-xl lg:text-3xl xl:text-5xl">Lorem ipsum dolor sit amet.</p> */}
+          <p>Hello long sentences</p>
+          <p>Another long sentences</p>
+          <p className="text-xs sm:text-base md:text-xl lg:text-3xl xl:text-5xl">Lorem ipsum dolor sit amet.</p> */}
 
 
       {/* TYPOGRAPHY */}
       {/* <hr /> */}
       {/* <h1 className="text-9xl italic underline decoration-red-500 decoration-dotted decoration-4 underline-offset-8">Title 1</h1>
-    <h2 className="text-2xl overline decoration-green-500 decoration-solid decoration-2 uppercase">title 2</h2>
-    <h3 className="text-xl line-through decoration-blue-500 decoration-double decoration-1 lowercase">Title 3</h3>
-    <p className="text-base leading-normal underline decoration-yellow-500 decoration-wavy decoration-1 underline-offset-8 capitalize">a regular paragraph</p>
-    <p className="text-sm">A description paragraph</p>
-    <p className="text-xs note">A little note</p>
-    <p className="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, nobis! Nihil, dolores ratione ab aut veritatis vitae nulla itaque voluptatum?</p>
-    <p className="break-words">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis magni itaque aliquid deserunt a consequatur aliquam reiciendis. Repudiandae, temporibus dolor!</p>
-    <p className="break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt qui ipsam. Laboriosam at quidem fugit pariatur provident veritatis sint.</p> */}
+          <h2 className="text-2xl overline decoration-green-500 decoration-solid decoration-2 uppercase">title 2</h2>
+          <h3 className="text-xl line-through decoration-blue-500 decoration-double decoration-1 lowercase">Title 3</h3>
+          <p className="text-base leading-normal underline decoration-yellow-500 decoration-wavy decoration-1 underline-offset-8 capitalize">a regular paragraph</p>
+          <p className="text-sm">A description paragraph</p>
+          <p className="text-xs note">A little note</p>
+          <p className="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, nobis! Nihil, dolores ratione ab aut veritatis vitae nulla itaque voluptatum?</p>
+          <p className="break-words">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis magni itaque aliquid deserunt a consequatur aliquam reiciendis. Repudiandae, temporibus dolor!</p>
+          <p className="break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt qui ipsam. Laboriosam at quidem fugit pariatur provident veritatis sint.</p> */}
 
 
       {/* SPACE-SIZE */}
@@ -97,6 +103,7 @@ const App = () => {
 
 
       {/* FLEX  */}
+      {/* <hr /> */}
       {/* <div className="Parent">
         <div>Header</div>
         <div className="flex items-center justify-evenly">
@@ -268,8 +275,8 @@ const App = () => {
 
 
       {/* EFFECT-FILTER  */}
-      <hr />
-      <div className="mr-10 mb-10 inline-block p-4 text-black bg-white border rounded-lg shadow-lg shadow-red-500">
+      {/* <hr /> */}
+      {/* <div className="mr-10 mb-10 inline-block p-4 text-black bg-white border rounded-lg shadow-lg shadow-red-500">
         <img className="w-80 mb-4 blur-sm hover:blur-none" src="https://images.unsplash.com/photo-1725615357444-6123528686cf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         <h1 className="text-2xl">Hello</h1>
         <p className="mb-4">This is my div</p>
@@ -316,12 +323,66 @@ const App = () => {
         <h1 className="text-2xl">Hello</h1>
         <p className="mb-4">This is my div</p>
         <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 shadow-md shadow-yellow-500/50 text-white opacity-50">Say Hello</button>
+      </div> */}
+
+
+      {/* DESIGN-SYSTEM  */}
+      <hr />
+      <h1>This is a title</h1>
+      <h2>This is a subtitle</h2>
+      <p>This is a paragraph</p>
+      <a href="https://vnexpress.net/">Báo VnExpress - Báo tiếng Việt nhiều người xem nhất</a>
+      <div className="my-4">
+        <button className="btn btn-primary">This is a primary button</button>
       </div>
+      <div className="my-4">
+        <button className="btn btn-secondary">This is a secondary button</button>
+      </div>
+      <div className="my-4">
+        <button disabled className="btn btn-primary">This is a disabled button</button>
+      </div>
+      <div>
+        <input type="text" placeholder="Email"/>
+      </div>
+      <div>
+        <input disabled type="text" placeholder="Email"/>
+      </div>
+      <div>
+        <input type="date"/>
+      </div>
+      <div className="flex items-start my-4">
+        <input type="checkbox" id="checkbox"/>
+        <label htmlFor="checkbox">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam provident debitis laborum maiores soluta! Debitis blanditiis ipsam quis esse tempore?</label>
+      </div>
+      <div>
+        <select>
+          <option >Option 1</option>
+          <option >Option 2</option>
+        </select>
+      </div>
+
+      <div className="Select">
+        <div className="child flex justify-between items-center" onClick={() => setIsOpen(!isOpen)}>
+          <span>{selectValue}</span>
+          <div className={isOpen ? "rotate-180 duration-500" : "rotate-0"}>
+            <ArrowDown/>
+          </div>
+        </div>
+        {isOpen && (
+          <div>
+          <ul className="flex flex-col divide-y border-t">
+            <li className="child">Option 1</li>
+            <li className="child">Option 2</li>
+            <li className="child">Option 3</li>
+          </ul>
+        </div>
+        )}
+      </div>
+      {/* <h1>This is another title</h1>
+      <h2>This is another subtitle</h2> */}
     </div>
   );
 };
-
-export default App;
 
 // text-3xl font-bold underline
 
